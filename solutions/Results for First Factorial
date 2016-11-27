@@ -1,0 +1,10 @@
+function FirstFactorial(num) { 
+
+  // code goes here  
+  var newnum = 1;
+  for(i=1; i<=num; i++){
+      newnum = newnum * i;
+  }
+  return newnum; 
+         
+}

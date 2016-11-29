@@ -1,0 +1,15 @@
+function CheckNums(num1,num2) { 
+
+  // code goes here  
+  var string = 0;
+  if(num1 == num2){
+      return string - 1;
+  } else 
+  if(num2 > num1){
+      return true;
+  } else {
+      return false;
+  }
+  return
+         
+}

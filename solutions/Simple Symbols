@@ -1,0 +1,14 @@
+function SimpleSymbols(str) { 
+    
+  // code goes here  
+  var newstr = '=' + str + '=';
+  for(i=0; i<newstr.length; i++){
+      if(newstr[i].match(/[a-z]/i) !== null){
+          if(newstr[i-1] !== '+' || newstr[i+1] !== '+'){
+              return false;
+          }
+      }
+  }
+  return true;
+         
+}

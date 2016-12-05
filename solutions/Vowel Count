@@ -1,0 +1,8 @@
+function VowelCount(str) { 
+
+  // code goes here  
+  var words = str.match(/a|e|i|o|u/gi);
+  
+  return words.length; 
+         
+}

@@ -1,0 +1,16 @@
+function ExOh(str) { 
+
+  // code goes here  
+  var exoh = str.match(/[xo]/gi);
+  var ex = [], oh = [];
+    for(i=0; i<exoh.length; i++){
+        if(exoh[i] === 'x'){
+            ex.push(exoh[i]);
+        } else {
+            oh.push(exoh[i]);
+        }
+    }         
+    return ex.length === oh.length;
+
+}
+   

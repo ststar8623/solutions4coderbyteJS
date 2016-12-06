@@ -1,0 +1,9 @@
+function Palindrome(str) { 
+
+  // code goes here  
+  str = str.split(' ').join('').toLowerCase();
+  var rev = str.split('').reverse().join('');
+
+  return str === rev; 
+         
+}
